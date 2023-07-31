@@ -1,0 +1,102 @@
+body {
+
+    background-color:rgb(214, 226, 240);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+/* This is a CSS comment */
+
+#container {
+
+
+    margin: auto;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 4%;
+    width: 230px;
+   
+    
+
+}
+
+img {
+
+border-radius: 4%;
+
+
+}
+
+h1 {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(31, 50, 81);
+   
+
+}
+
+h2 {
+
+   
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(126, 128, 129);
+
+    
+}
+ 
+@media screen and (max-width:800px) {
+
+    #container {
+
+
+        margin: auto;
+        padding: 20px;
+        background-color: #f0f0f0;
+        border-radius: 5%;
+        width: 310px;
+    
+    }
+
+    img {
+
+        border-radius: 5%;
+        width: 310px;
+        height: 310px;
+        
+        }
+
+        h1 {
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            color: rgb(31, 50, 81);
+           
+        
+        }
+        
+        h2 {
+        
+           
+            padding-left: 8px;
+            padding-right: 8px;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            color: rgb(126, 128, 129);
+        
+            
+        }
+    
+
+  }
